@@ -11,7 +11,7 @@ info:
 requests:
   - method: GET
     path:
-      - "{{BaseURL}}/backup/auto.php?password=NzbwpQSdbY06Dngnoteo2wdgiekm7j4N&path=../backup/auto.php"
+      - "BaseURL}}/backup/auto.php?password=NzbwpQSdbY06Dngnoteo2wdgiekm7j4N&path=../backup/auto.php"
 
     matchers-condition: and
     matchers:
@@ -26,3 +26,5 @@ requests:
           - "display_errors"
         condition: and
         
+
+# Updated by tulsi on 2022/01/20
